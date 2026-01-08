@@ -1,0 +1,21 @@
+# ArtVision - Ignore List
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# Temporary/fix scripts (delete after use)
+fix_encoding.php
+
+# Logs
+*.log
+error_log
+
+# Don't ignore the SQL setup file - we need it for database setup on other machines
+# database_setup.sql is included
